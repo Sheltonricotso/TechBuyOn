@@ -1,0 +1,123 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.nomeLogo{
+    margin-top: 20px;
+    width: 100%;
+    max-width: 560px;
+    min-width: 320px;
+}
+h2{
+    color: #02457a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.prazer{
+    margin-top: 20px;
+   text-align: center;
+   font-size: 1.3em;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0px 20px ;
+}
+
+.cir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.capa{
+    max-width: 400px;
+    width: 100%;
+    min-width:300px ;
+}
+main{
+    padding-top:50px;
+}
+aside{
+    margin: 30px;
+    padding: 5px 10px;
+    width: 80px;
+    border-radius: 30px;
+    justify-content: center;
+    display: flex;
+    font-size: 1.2em;
+    background-color: #060f33;
+    color: white;
+}
+aside a{
+    color: white;
+    text-decoration: none;
+    background-color: none;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+}
+/* conteiner*/ 
+#navBar{
+    background-image: linear-gradient(41deg , #1a98ff , #885fff);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7,9vh;
+    padding: 0px 10px ;
+}
+/*links*/
+ol a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 17px;
+    font-weight: 600px;
+}
+/*animacao nos links*/
+a:hover{
+    background-color: #3333336e;
+}
+.links{
+    display: flex;
+    list-style: none;
+}
+/* fazer alteracoes apos chegar aos 500px de largura*/
+@media (max-width:500px)  {
+    a{
+        text-decoration: none;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        padding: 12px;
+    }    
+    .logo{
+        width: 30px;
+    }
+    #navBar{
+        width: 100%;
+        background-image: linear-gradient(41deg , #1a98ff , #885fff);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 40px;
+        padding: 0px 10px;
+    }
+}
+/*login*/
+.logar{
+    color: #00f3ff;
+    font-weight: 600;
+}
+/*animacao no login*/
+.logar:hover{
+    color: #00f3ff;
+    font-weight: 600;
+    background-color: #8d1abbce;
+}
+
